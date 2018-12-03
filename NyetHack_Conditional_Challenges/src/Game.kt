@@ -1,10 +1,16 @@
 fun main(args: Array<String>) {
     var healthPoints = 80
+    var karma = 16
     val name = "Ricardo"
-    val isBlessed = true
+    val isBlessed = false
     val isImmortal = false
     val auraVisible = isBlessed && healthPoints > 50 || isImmortal
-    val auraColor = if(auraVisible)"GREEN" else "NONE"
+    val auraColor = when(karma){
+        in 0..5 -> "RED"
+        in 6..10 -> "ORANGE"
+        in 11..15 -> "PURPLE"
+        else -> "GREEN"
+    }
 
 //    val healthStatus = if(healthPoints == 100){
 //        "$name is in perfect health"
@@ -31,16 +37,18 @@ fun main(args: Array<String>) {
 
     //the code below is the same as all the code commented out above
     val healthStatus = when(healthPoints){
-        100 -> "is in excellent health"
-        in 90..99 -> "isn't doing too bad"
-        in 75..89 -> if (isBlessed) "has minor wounds, but will recover quickly" else "has minor wounds"
-        in 50..74 -> if (isBlessed) "has moderate wounds, but will recover quickly" else "has moderate wounds"
-        in 25..49 -> "is severely wounded"
-        in 15..24 -> "is even severely wounded"
-        else -> "is going to die soon"
+        100 -> "$name is in excellent health"
+        in 90..99 -> "$name isn't doing too bad"
+        in 75..89 -> if (isBlessed) "$name has minor wounds, but will recover quickly" else "$name has minor wounds"
+        in 50..74 -> if (isBlessed) "$name has moderate wounds, but will recover quickly" else "$name has moderate wounds"
+        in 25..49 -> "$name is severely wounded"
+        in 15..24 -> "$name is even severely wounded"
+        else -> "$name is going to die soon"
     }
 
-    println("(Aura:$auraColor" +
-            "(Blessed:${if(isBlessed)"YES" else "NO"})\n$healthStatus")
+    val statusFormatString = "(HP: $healthPoints)(Aura: $auraColor)(Blessed: ${if(isBlessed)"YES" else "NO"}) -> $healthStatus"
+    println(statusFormatString)
+//    println("(Aura:$auraColor)" +
+//            "(Blessed:${if(isBlessed)"YES" else "NO"})\n$healthStatus")
 
 }
