@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b983437b-1a31-48ef-9d25-2ddfe398ffe6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/GameKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NyetHack/GameKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/out/production/NyetHack/GameKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/out/production/NyetHack/META-INF/NyetHack.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/src/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../NyetHack_Conditional_Challenges/src/Game.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b983437b-1a31-48ef-9d25-2ddfe398ffe6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +71,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544283354020" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544283981568" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NyetHack_Conditional_Challenges" />
   </component>
   <component name="RunDashboard">
@@ -129,9 +121,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25623268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2552011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -140,7 +131,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32808024" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32808024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
